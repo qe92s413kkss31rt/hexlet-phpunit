@@ -16,7 +16,11 @@
   "scripts": {
     "test": "phpunit tests"
   },
-  "autoload": {
+  "autoload": 
+  "files": [
+    "src/Utils.php"
+]
+  {
     "psr-4": {
       "Php\\Package\\": "src"
     }
